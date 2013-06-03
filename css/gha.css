@@ -1,0 +1,471 @@
+
+#contenedor {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	min-width: 640px;
+	height: 100%;
+}
+
+#encabezado {
+	position: relative;
+	background-color:#ebebeb;
+	height: 62px;
+}
+
+#logo {
+	position: relative;
+	background-image:url(../img/gha_logo.png);
+	height: 52px;
+	width: 110px;
+	left: 5%;
+	top: 5px;
+	display: inline-block;
+}
+
+#usuario {
+	position: relative;
+	font-family: arial;
+	font-size: 12px;
+	left: 70%;
+	top: -35px;
+	color: #484848;
+	width: 130px;
+}
+
+#notificaciones a:link {
+	position: absolute;
+	font-size: 10px;
+	font-weight: bold;
+	color: white;
+	z-index: 3;
+	top: 13px;
+	right: 64px;
+	text-decoration: none;
+}
+
+#notificaciones a:visited {
+	color: white;
+}
+
+#boton1 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 60px;
+	top: 20px;
+	z-index: 2;
+}
+
+#boton2 {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 30px;
+	top: 20px;
+}
+
+#arrowDown {
+	position: absolute;
+	width: 9px;
+	height: 7px;
+	top: 25px;
+	right: 15px;
+}
+
+.menu {
+	position: relative;
+}
+
+#menuBarra {
+	background-image: url(../img/slide1.jpg);
+	height: 24px;
+}
+
+#menuSelect select {
+position: absolute;
+width: 120px;
+margin-left: 0px;
+margin-top: -24px;
+z-index: 2;
+color: #929496;
+height: 20px;
+font-size: 11px;
+border-style: none;
+padding-left: 20px;
+}
+
+#estiloTexto {
+	position: absolute;
+	font-size: 10px;
+	color: #484848;
+	z-index: 2;
+	top: 3px;
+	left: 130px;
+}
+
+#closeX {
+	position: absolute;
+	width: 8px;
+	height: 7px;
+	top: 6px;
+	left: 290px;
+}
+
+#opciones {
+	position: relative;
+	height: 75px;
+	background-color: #ebebeb;
+	margin-top: -5px;
+}
+
+#botonBox {
+	position: absolute;
+	height: 77px;
+	width: 40px;
+	right: 10px;
+	top: 0px;
+}
+
+.opcionesContacto {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 5px;
+	right: 20px;
+}
+
+#botonLimpiar {
+	position: relative;
+	top: 5px;
+}
+
+#botonBuscar {
+	position: relative;
+	top: 15px;
+}
+
+#botonGuardar {
+	position: relative;
+	top: 2px;
+}
+
+#tab1 {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.botonBox2 {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+}
+
+#botonBox6 {
+	position: relative;
+	top: 6px;
+	right: -17px;
+}
+
+#botonBox7 {
+	position: relative;
+	top: 36px;
+	right: 6px;
+}
+
+.inputTitle {
+	font-family: arial;
+	font-size: 10px;
+	color: #929496;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.inputLine {
+	position: relative;
+	height: 15px;
+	margin-top: 5px;
+	border:1px solid #c5c5c5;
+	display: inline-block;
+	width: 50px;
+}
+
+.inputBoxPad {
+	padding-left: 5px;
+	padding-right: 5px;
+	display: inline-block;
+}
+
+.icon {
+	position: relative;
+	display: inline-block;
+	color: #929496
+}
+
+#inputBox2 {
+	width:70px;
+	display: inline-block;
+}
+
+#inputBox3 {
+	display: inline-block;
+	width: 90px;
+}
+
+.buscar{
+	position: absolute;
+	width: 14px;
+	height: 13px;
+	top: 36px;
+	left:174px;
+}
+
+#pos2 {
+	left:280px;
+}
+
+#inputBox4 {
+	display: inline-block;
+	width: 90px;
+}
+
+#inputBox5 {
+	width:70px;
+	display: inline-block;
+}
+
+#inputBox6 {
+	width:70px;
+	display: inline-block;
+}
+
+#separador1 {
+	position: relative;
+	height: 15px;
+	background-color: #939393;
+}
+
+#caracteristicas {
+	position: relative;
+	height: 20px;
+	background-color: #484848;
+	font-size: 8px;
+	font-family: arial;
+	color: #9f9f9f;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 5px;
+}
+
+.itemSpace {
+	position: relative;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right:9px;
+	top: -6px;
+}
+
+#caracteristicasBar {
+	position: absolute;
+	height: 17px;
+	width: 5px;
+	top: 4px;
+}
+
+#lista {
+	position: relative;
+	height: 30px;
+	background-color: #d8ebfa;
+	font-family: arial;
+	font-size: 12px;
+	color: #484848;
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+#parrafo1 {
+	position: absolute;
+	font-family: arial;
+	font-size: 11px;
+	color: #929496;
+	top: 10px;
+	left: 220px;
+}
+
+#inputBox13 {
+	width: 150px;
+	margin: 5px;
+}
+
+#contenido {
+	position: relative;
+	height: 100%;
+	background-color:white;
+	padding-left: 5%;
+	padding-top: 5px;
+	padding-right: 0px;
+}
+
+.title {
+	position: relative;
+	margin-left: 3px;
+	margin-right: 5px;
+	background-color: #37a0f7;
+	font-family: arial;
+	font-size: 10px;
+	color: white;
+	height: 15px;
+	width: 14%;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.blank {
+	position: relative;
+	background-color: white;
+	height: 15px;
+	width: 14%;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 5px;
+	padding-left: 5px;
+}
+
+.gray {
+	position: relative;
+	background-color: #ebebeb;
+	height: 15px;
+	width: 14%;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 5px;
+	padding-left: 5px;
+
+}
+
+#nSize {
+	width: 3%;
+}
+
+#codSize {
+	width: 10%;
+}
+
+#usoSize {
+	width: 9%;
+}
+
+#gSize {
+	width: 7%;
+}
+
+#menuV {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	width: 40px;
+	height: 100%;
+	z-index: 3;
+}
+
+.botonV {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	right: 20px;
+	top: 5px;
+	z-index: 4;
+}
+
+#botonH1 {
+	margin-top: 40px;
+}
+
+#botonH2 {
+	margin-top: 80px;
+}
+
+#botonH3 {
+	margin-top: 120px;
+}
+
+#botonH4 {
+	margin-top: 160px;
+}
+
+#botonH5 {
+	margin-top: 200px;
+}
+
+#botonH6 {
+	margin-top: 240px;
+}
+
+.separadorV {
+	position: absolute;
+	height: 100%;
+	right: 0px;
+	width: 10px;
+	top: 0px;
+	background-color: #ebebeb;
+	z-index: 3;
+}
+
+#separador2 {
+	position: relative;
+	height: 30px;
+	background-color: #ebebeb;
+}
+
+.footB {
+	position: relative;
+	height: 12px;
+	width: 15px;
+	margin: 10px;
+	left: 75%;
+}
+
+#footBoton4 {
+}
+
+#footBoton3 {
+	width: 7px;
+}
+
+#footBoton2 {
+	width: 7px;
+}
+
+#footBoton1 {
+}
+
+#separadorAzul {
+	position: absolute;
+	height: 15px;
+	background-color: #37a0f7;
+	z-index: 2;
+	width: 100%;
+	left: 0px;
+	bottom: 0px;
+}
+
+.divisor {
+	position: relative;
+	height: 9px;
+	width: 11px;
+	margin: 2px;
+	left: 50%;
+}
+
+#separadorGris {
+	position: relative;
+	height: 20px;
+	background-color: #484848;
+}
+
+#footLogo {
+	position: absolute;
+	right: 10px;
+	top: 2px;
+}
